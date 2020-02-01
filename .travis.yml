@@ -8,7 +8,7 @@ addons:
   sonarcloud:
     organization: "krishna192168"
     token:
-      secure: c851c81ac196d12ad48c9c5c713b293d79a999fb # sonor encrypted token
+      secure: f2810fc934c7f897bd9d35c6143ae234b54cdee3 # sonor encrypted token
 
 cache:
   directories:
