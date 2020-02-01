@@ -1,0 +1,25 @@
+  
+language: java
+
+jdk:
+  - openjdk8
+
+addons:
+  sonarcloud:
+    organization: "krishna192168"
+    token:
+      secure: c851c81ac196d12ad48c9c5c713b293d79a999fb # sonor encrypted token
+
+cache:
+  directories:
+    - '$HOME/.gradle/caches/'
+    - '$HOME/.gradle/wrapper/'
+
+script:
+  # here builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - ./gradlew sonarqube
+  
+notifications:
+  email:
+    - krishna192168@gmail.com
+    - yaswanthlakshmi986@gmail.com
