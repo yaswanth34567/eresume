@@ -6,7 +6,7 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: "krishna192168"
+    organization: "krishnawisely"
     token:
       secure: f2810fc934c7f897bd9d35c6143ae234b54cdee3 # sonor encrypted token
 
